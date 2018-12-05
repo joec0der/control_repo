@@ -12,4 +12,5 @@ node 'alcnt75203.va5e0lgt3b3uhkkeoammsvvf5a.cx.internal.cloudapp.net' {
   file { '/root/README':
     ensure => file,
     content => $fqdn,
+  }
 }
