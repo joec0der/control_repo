@@ -10,3 +10,6 @@ node 'alcnt75202.va5e0lgt3b3uhkkeoammsvvf5a.cx.internal.cloudapp.net' {
 node 'alcnt75203.va5e0lgt3b3uhkkeoammsvvf5a.cx.internal.cloudapp.net' {
   include role::db_server
 }
+node 'alcnt75204.va5e0lgt3b3uhkkeoammsvvf5a.cx.internal.cloudapp.net' {
+  include role::minecraft_server
+}
